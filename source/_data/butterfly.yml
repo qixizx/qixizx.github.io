@@ -276,6 +276,9 @@ reward:
         img: /img/alipay.jpg
         text: 支付宝
 
+# 在线聊天
+daovoice: true
+daovoice_app_id: 722c0d63
 # 推薦文章
 related_post:
   enable: true

@@ -129,3 +129,6 @@ if !is_post()
 if theme.blog_title_font.font_link
   link(rel='stylesheet', href=url_for(theme.blog_title_font.font_link))
 
+//在线聊天
+if theme.daovoice
+  script(src=url_for(theme.CDN.daovoice) defer)
