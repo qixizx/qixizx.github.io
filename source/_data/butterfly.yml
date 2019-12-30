@@ -150,10 +150,10 @@ toc:
   enable: true
   number: true
 
-# auto open the sidebar in 'post'
+# auto open the sidebar in 'post'  文章自动打开侧边栏
 auto_open_sidebar:
   enable: true
-
+# 文章底部添加版权信息
 post_copyright:
   enable: true
   license: CC BY-NC-SA 4.0
@@ -228,9 +228,9 @@ since: 2019
 
 footer_custom_text: Hi, welcome to my <a href="https://emdwx.com/">blog</a>!
 
-
+# 是否显示 驱动 Hexo|主题 Butterfly
 footer_copyright:
-  enable: true
+  enable: false
 
 ICP: # 备案
   enable: false
@@ -238,7 +238,7 @@ ICP: # 备案
   text:
   icon: /img/icp.png
 
-####    站長驗證    ####
+####    站長驗證    #### 让百度,360和谷歌收录我们的博客
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
 google_site_verification:
@@ -593,6 +593,8 @@ CDN:
   algolia_search_css: https://cdn.jsdelivr.net/npm/instantsearch.js@2.1.1/dist/instantsearch.min.css
   algolia_js: /js/search/algolia.js
   local_search: /js/search/local-search.js
+  #在线聊天
+  daovoice: /js/daovoice.js
 
   mathjax: https://cdn.jsdelivr.net/npm/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML
   katex: https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css
@@ -629,4 +631,3 @@ CDN:
 
   translate: /js/tw_cn.js
   runtimeshow: js/runtimeshow.js
-

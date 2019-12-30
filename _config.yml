@@ -11,20 +11,20 @@ subtitle: 'Smile'
 # 站点描述
 description: '调皮♥，欢迎您的访问！'
 # 站点关键词
-keywords: 
+keywords: 微笑
 # 站点主人
 author: Wei Xiao
 # 站点语言
 language: zh-CN
 # 站点时区
-timezone: 
+timezone: Asia/Shanghai
 # 邮箱
 email: 716677713@qq.com
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://emdwx.com
-root: /
+url: http://www.emdwx.com
+root: / #如果您的网站存放在子目录中，例如 http://yoursite.com/blog，则请将您的 url 设为 http://yoursite.com/blog 并把 root 设为 /blog/。
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
